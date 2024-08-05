@@ -1,0 +1,161 @@
+/*common shared style*/
+body{
+  font-family: "Open Sans", sans-serif;
+  
+}
+.text-primary{
+  color: orangered;
+
+}
+.btn-primary{
+  background-color: orangered;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 130px;
+}
+.nav-title{
+  font-size: 50px;
+  
+}
+nav > ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav li{
+  list-style: none;
+  margin-right: 50px;
+}
+nav a{
+  text-decoration: none;
+  color: gray;
+}
+.header{
+  
+  background-image: url(../images/developer.png);
+  background-position: left;
+  background-color: rgba(241, 79, 50, 0.055);
+  background-image: url(../images/header_bg.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+.bannar{
+  padding-left: 100px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bannar-context{
+  max-width: 500px;
+}
+.profile-pic{
+  width: 100%;
+}
+#about-section{
+  background-color: rgba(231, 141, 68, 0.062);
+}
+.section{
+  margin: 50px auto;
+  max-width: 900px;
+  text-align: center;
+   
+   padding: 30px 80px;
+}
+.section-title{
+  text-align: center;
+  font-size: 40px;
+}
+.bio{
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  
+}
+.card{
+  /* border: 1px solid gray; */
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px 3px  gray;
+  max-width: 180px;
+  
+  
+  
+}
+.card-content{
+  text-align: left;
+  padding: 10px;
+}
+
+.degree{
+  margin-right: 30px;
+  text-align: left;
+  
+}
+.degree-name{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.University-name{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.reconization{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.company-name{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.education{
+  text-align: left;
+  
+}
+.experience{
+  margin-right: 15px;
+  text-align: left;
+  
+}
+.Experiences{
+  text-align: left;
+  margin-left: 30px;
+
+}
+.resume{
+  display: flex;
+  justify-content: left;
+  
+  
+}
+
+.footer-section{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contact{
+  max-width: 500px;
+  
+}
+.inpur-box{
+  padding: 10px 150px 10px 5px;
+  margin-bottom: 10px;
+}

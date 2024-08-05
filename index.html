@@ -1,20 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/portfolio.css">
 </head>
+
 <body>
-    <header>
+    <header class="header">
+        <nav>
+            <h2 class="nav-title">Ro<span class="text-primary">b</span>i</h2>
+            <ul>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><button class="btn-primary">Hire me</button></li>
+            </ul>
+        </nav>
+        <div class="bannar">
+            <div class="bannar-context">
+                <h4 class="bannar-greeting">Hi I am </h4>
+                <h2 class="bannar-title">Md Robi</h2>
+                <p class="bannar-description ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nemo
+                    voluptas beatae, sint sunt architecto!
+
+                </p>
+                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary">Contact</button>
+            </div>
+            <img class="profile-pic" src="images/mypic.png" alt="">
+
+        </div>
 
     </header>
+
     <main>
+        <section class="section" id="about-section">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga corrupti alias
+                inventore! Non aut necessitatibus soluta, repellat eum iure asperiores dignissimos id, omnis labore
+                molestias voluptatum laborum officia sequi assumenda libero perspiciatis perferendis vel sunt, doloribus
+                nulla qui exercitationem expedita quia! Autem doloribus perspiciatis commodi unde voluptate adipisci
+                officia quas.</p>
+            <div class="bio">
+                <div class="name">
+                    <p>Name:</p>
+                    <h4>Md Robi</h4>
+
+                </div>
+                <div class="email">
+                    <p>Email:</p>
+                    <h4>mailrobi1998@gmail.com</h4>
+
+                </div>
+                <div class="date-of-birth">
+                    <p>date of birth:</p>
+                    <h4>01-02-1998</h4>
+
+                </div>
+                <div class="country">
+                    <p>Country:</p>
+                    <h4>Bangladesh</h4>
+
+                </div>
+            </div>
+
+
+        </section>
+        <section class="section ">
+            <h3 class="section-title">What I do</h3>
+            <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga corrupti alias
+                inventore! Non aut necessitatibus soluta, repellat eum iure asperiores dignissimos id, omnis labore
+                molestias voluptatum laborum officia sequi assumenda libero perspiciatis perferendis vel sunt, doloribus
+                nulla qui exercitationem expedita quia! Autem doloribus perspiciatis commodi unde voluptate adipisci
+                officia quas.</p>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-content">
+                        <img src="images/icons/js.png" alt="">
+                        <h4>Vanilla Javascript</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quasi alias sed incidunt
+                            ipsa cupiditate!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img src="images/icons/react.png" alt="">
+                        <h4>React</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quasi alias sed incidunt
+                            ipsa
+                            cupiditate!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img src="images/icons/nodejs.png" alt="">
+                        <h4>Node.js</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quasi alias sed incidunt
+                            ipsa
+                            cupiditate!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img src="images/icons/mongo.png" alt="">
+                        <h4>MongoDB</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quasi alias sed incidunt
+                            ipsa
+                            cupiditate!</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="section">
+            <h3 class="section-title"> A Summary of My Resume </h4>
+                <div class="resume">
+                    <div class="education">
+                        <h3>My Education</h3>
+                        <div class="degree">
+                            <h4 class="degree-name">Honours in computer Science</h4>
+                            <h6 class="University-name">SMUCT/2024-2028</h6>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, commodi.</p>
+                            <hr>
+                        </div>
+                        <div class="degree">
+                            <h4 class="degree-name">Masters in computer Science</h4>
+                            <h6 class="University-name">BUET/2028-2030</h6>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, commodi.</p>
+                            <hr>
+                        </div>
+                        <div class="degree">
+                            <h4 class="degree-name">Phd in computer Science</h4>
+                            <h6 class="University-name">Harver University/2030-2032</h6>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, commodi.</p>
+
+                        </div>
+                    </div>
+                    <div class="Experiences">
+                        <h3>My Experience</h3>
+                        <div class="experience">
+                            <h4 class="reconization">Sr Frond End Developer</h4>
+                            <h6 class="company-name">Harver University/2024-2028</h6>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, commodi.</p>
+                            <hr>
+                        </div>
+                        <div class="experience">
+                            <h4 class="reconization">Jr Frond End Developer</h4>
+                            <h6 class="company-name">Harver University/2024-2028</h6>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, commodi.</p>
+                            <hr>
+                        </div>
+                        <div class="experience">
+                            <h4 class="reconization">HTML Developer</h4>
+                            <h6 class="company-name">Harver University/2024-2028</h6>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, commodi.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-primary">Download CV</button>
+
+        </section>
 
     </main>
     <footer>
-        
+        <div class="footer-section" id="about-section">
+            <div class="contact">
+                <h3>Lets Contact</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fugiat officia quae adipisci omnis cum?</p>
+                <img src="images/icons/facebook.png" alt="">
+                <img src="images/icons/insta.png" alt="">
+                <img src="images/icons/twitter.png" alt="">
+            </div>
+            <div class="messege">
+                <h3>Let's Messege</h3>
+                <form action="">
+                    <label for="name">
+                        <input type="text" name="" id="name" placeholder="your name" class="inpur-box">
+                    </label>
+                    <br>
+                    <label for="email">
+                        <input type="email" name="" id="email" placeholder="your email" class="inpur-box">
+                    </label>
+                    <br>
+                    <label for="messege">
+                        <textarea name="" id="messege" rows="6" cols="42">Messege</textarea>
+                    </label>
+                    <br>
+                    <button class="btn-primary">Submit</button>
+                </form>
+
+            </div>
+        </div>
+
     </footer>
-    
+
 </body>
+
 </html>
